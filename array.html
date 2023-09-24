@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array_JavaScript</title>
+    <style></style>
+    <script></script>
+  </head>
+  <body>
+    <script>
+      //Array of JavaScript
+      var student1 = ["anil", "dollar", "akil"];
+      console.log(student1);
+      //Find Array element
+      console.log("hello " + student1[1]);
+
+      //Array of JavaScript
+      let student2 = ["atul", "akil", "kiran", "aksha"];
+      //alert("hello student " + student2);
+      function greet(m) {
+        console.log("Hello " + m + " How are you");
+      }
+      greet(student1[1]);
+      greet(student2[1]);
+
+      /*
+      for (initialization;condition;increament/decreament){
+        //body
+      }
+      */
+      for (var i = 0; i < 10; i++) {
+        console.log(student1[i]);
+      }
+      for (var i = 0; i < 3; i++) {
+        greet(student1[i]);
+      }
+      function greet2(m) {
+        for (var i = 0; i < 3; i++) {
+          console.log("Hello " + m[i] + " How are you");
+        }
+        greet2(student2);
+      }
+    </script>
+  </body>
+</html>

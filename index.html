@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array_JavaScript</title>
+    <style></style>
+    <script>
+      //1.Function Defination
+      function myFunction(x, y) {
+        //x and y are formal argument/parameter
+        //function Body
+        return x + y;
+      }
+      //2.function calling
+      let z = myFunction(10, 20); //10 and 20 are actual parameter/argument
+      var c = myFunction(100, 200);
+      console.log(z);
+      //Predefined function
+      //alert(c);
+
+      let b = myFunction(10, myFunction(10, 20));
+      alert(b);
+    </script>
+  </head>
+  <body></body>
+</html>
